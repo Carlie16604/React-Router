@@ -1,0 +1,23 @@
+body {
+  font-family: verdana;
+}
+
+nav {
+  display:flex;
+  background-color: rgb(255, 136, 123);
+  padding: 0.1rem;
+  justify-content: space-around;
+}
+
+nav a {
+  color:white;
+  padding: 0.5rem;
+}
+
+nav a.selected { 
+  border: solid 1px rgb(0, 0, 0);
+}
+
+nav a:hover {
+  color:red;
+}
