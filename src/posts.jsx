@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 const Posts = ({posts}) => {
     return (
       <div>
-        <h1>Posts</h1>
-        <ol>
+        <h2>Posts</h2>
             {
                 posts.map( post => {
                   return (
@@ -16,7 +15,6 @@ const Posts = ({posts}) => {
                     );
                 })
             }
-        </ol>
       </div>
     );
   };
